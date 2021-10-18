@@ -1,7 +1,7 @@
 # imports
-from useful import other
-from useful import number
-from useful import string
+from modules import other
+from modules import number
+from modules import string
 
 
 # functions

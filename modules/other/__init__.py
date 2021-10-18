@@ -41,7 +41,7 @@ def out():
     '''
     red	  = '\033[1;31m'
     cls   = '\033[0;0m'
-    from useful import other
+    from modules import other
     sair = input(f'Pressione {red}ENTER{cls} para sair.')
     other.cls()
     exit()
