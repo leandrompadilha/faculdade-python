@@ -10,7 +10,10 @@ def IR(nome, cpf, salario):
     -> Cria um dicionário com o nome do contribuinte, salário, valor do IR e salário líquido.
 
     :param nome: nome do contribuinte
+    :param cpf: cpf do contribuinte
     :param salario: salario do contribuinte
+    
+    :return: retorna um dicionário com nome, CPF, salário bruto, valor do IR cobrado e valor do salário líquido
     '''
     x = dict()
     x['nome'] = nome
@@ -65,7 +68,7 @@ for i in contribuintes:
     liquido = i['liquido']
 
     print(
-        f'Contribuinte:{green}{nome}{cls}\n'
+        f'Contribuinte: {green}{nome}{cls}\n'
         f'CPF:{green} {cpf[:3] + "." + cpf[3:6] + "." + cpf[6:9] + "-" + cpf[9:]}{cls}\n'
         f'Salário:{green} R${renda:.2f}{cls}\n'
         f'Valor IR descontado:{green} R${imposto:.2f}{cls}\n'
