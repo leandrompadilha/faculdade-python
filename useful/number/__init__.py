@@ -103,23 +103,3 @@ def validateCPF(msg, list=[]):
         except (ValueError, TypeError):
             continue
 
-
-
-def listRandom(qtd, escala):
-    '''    
-    -> Cria uma lista de números aleatórios
-
-    :param qtd: quantidade de números aleatórios que você deseja gerar
-    :param: escala: valor máximo que você deseja que estes números devem ter
-    :return: sem retorno
-
-    '''
-    from random import randint
-    import os
-    os.system('cls')
-
-    lista = list()
-    for i in range(qtd):
-        x = randint(0, escala)
-        lista.append(x)
-    return (lista)
