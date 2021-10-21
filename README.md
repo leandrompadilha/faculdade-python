@@ -2,7 +2,7 @@
 
 Sistema para realizar cálculos acerca do valor do imposto de renda:
 
-- Pergunta ao usuário o valor de contribuintes que será realizado o cálculo
+- Pergunta ao usuário a quantidade de contribuintes que será realizado o cálculo
 - Calcula o valor do imposto com base em tabela anexa ao código
 - Insere as informações de cada contribuinte cadastrado em um dicionário e atribui os dicionários a uma lista
 - Apresenta os dados de cada contribuinte (nome, cpf, salário, imposto cobrado e salário líquido)
